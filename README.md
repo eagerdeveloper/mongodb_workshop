@@ -6,4 +6,4 @@
 mongoimport to import the dataset
 
 At the terminal, use:
-mongoimport -d tennis -c ParksNYC --type=json --drop < ParksNYC.json
+mongoimport -d tennis -c ParksNYC --type json --drop < ParksNYC.json
