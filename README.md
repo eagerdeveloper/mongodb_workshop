@@ -2,6 +2,8 @@
 
 ###  ParksNYC.json is located in parksnyc-tennis folder
 
-Use mongoimport to import the dataset
 
+mongoimport to import the dataset
+
+At the terminal, use:
 mongoimport -d tennis -c ParksNYC --type=json --drop < ParksNYC.json
